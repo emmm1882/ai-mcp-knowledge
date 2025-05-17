@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "C:\\nvm4w\\nodejs\\npx.cmd",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "D:\\c++\\QT",
+        "D:\\c++\\QT"
+      ]
+    },
+    "mcp-server-computer": {
+      "command": "java",
+      "args": [
+        "-Dspring.ai.mcp.server.stdio=true",
+        "-jar",
+        "D:\\Java\\IDEA\\AI study\\mcp-server-computer\\target\\mcp-server-computer-1.0.jar."
+      ]
+    }
+  }
+}
+
